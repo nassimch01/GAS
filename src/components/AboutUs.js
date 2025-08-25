@@ -49,7 +49,7 @@ function AboutUs() {
                 </div>
                 <div className="row tm-mb-74 tm-row-1640">
                     <div className="col-lg-5 col-md-6 col-12 mb-3">
-                        <img src="img/about.jpg" alt="Image" className="img-fluid">
+                        <img src="img/about.jpg" alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-lg-7 col-md-6 col-12">
                         <div className="tm-about-img-text">
@@ -88,7 +88,7 @@ function AboutUs() {
                             </p>
                         </div>
                     </div>
-                </div> <!-- row -->
+                </div>
                 <div className="row tm-mb-50">
                     <div className="col-md-4 col-12">
                         <div className="tm-about-3-col">
@@ -123,7 +123,7 @@ function AboutUs() {
                         </div>
                     </div>
                 </div>
-            </div> <!-- container-fluid, tm-container-content -->
+            </div>
 
             <footer className="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
                 <div className="container-fluid tm-container-small">
@@ -163,12 +163,12 @@ function AboutUs() {
                 </div>
             </footer>
 
-            <script src="js/plugins.js"></script>
+            {/* <script src="js/plugins.js"></script>
             <script>
                 $(window).on("load", function() {
                     $('body').addClass('loaded');
         });
-            </script>
+            </script>*/}
 
         </div>
     )
