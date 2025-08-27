@@ -3,13 +3,6 @@ import React from 'react'
 function Photos() {
     return (
         <div>
-
-
-
-
-
-
-
             <div className="container-fluid tm-container-content tm-mt-60">
                 <div className="row mb-4">
                     <h2 className="col-12 tm-text-primary">Photo title goes here</h2>
@@ -165,12 +158,7 @@ function Photos() {
             </div>
 
 
-            {/*    <script src="js/plugins.js"></script>
-    <script>
-        $(window).on("load", function() {
-            $('body').addClass('loaded');
-        });
-    </script>*/}
+
 
 
         </div>

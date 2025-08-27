@@ -3,10 +3,6 @@ import React from 'react'
 function AboutUs() {
     return (
         <div>
-
-
-
-
             <div className="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg"></div>
 
             <div className="container-fluid tm-mt-60">
@@ -93,12 +89,7 @@ function AboutUs() {
                 </div>
             </div>
 
-            {/* <script src="js/plugins.js"></script>
-            <script>
-                $(window).on("load", function() {
-                    $('body').addClass('loaded');
-        });
-            </script>*/}
+
 
         </div>
     )

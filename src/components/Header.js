@@ -1,10 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
         <div>
-
-
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
@@ -23,10 +22,10 @@ function Header() {
                                 <a className="nav-link nav-link-2" href="videos.html">Videos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link-3" href="about.html">About</a>
+                                <Link className='nav-link nav-link-3' to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link-4" href="contact.html">Contact</a>
+                                <Link className='nav-link nav-link-4' to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +33,7 @@ function Header() {
             </nav>
 
             <div className="tm-hero d-flex justify-content-center align-items-center" style={{
-                backgroundImage: "url('/assets/img/hero.jpg')",
+                backgroundImage: "url('/img/hero.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -69,7 +68,7 @@ function Header() {
                 <div className="row tm-mb-90 tm-gallery">
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-03.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-03.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Clocks</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -82,7 +81,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-04.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-04.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Plants</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -95,7 +94,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-05.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-05.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Morning</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -108,7 +107,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-06.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-06.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Pinky</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -122,7 +121,7 @@ function Header() {
 
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-01.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-01.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Hangers</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -135,7 +134,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-02.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-02.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Perfumes</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -148,7 +147,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-07.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-07.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Bus</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -161,7 +160,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-08.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-08.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>New York</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -174,7 +173,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-09.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-09.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Abstract</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -187,7 +186,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-10.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-10.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Flowers</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -200,7 +199,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-11.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-11.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Rosy</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -213,7 +212,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-12.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-12.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Rocki</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -226,7 +225,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-13.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-13.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Purple</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -239,7 +238,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-14.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-14.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Sea</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -252,7 +251,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-15.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-15.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Turtle</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -265,7 +264,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/assets/img/img-16.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-16.jpg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Peace</h2>
                                 <a href="photo-detail.html">View more</a>
