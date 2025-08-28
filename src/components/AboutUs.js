@@ -95,4 +95,4 @@ function AboutUs() {
     )
 }
 
-export default AboutUs
+export default AboutUs;

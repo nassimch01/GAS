@@ -19,10 +19,7 @@ function Header() {
                                 <a className="nav-link nav-link-1 active" aria-current="page" href="index.html">Photos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link-2" href="videos.html">Videos</a>
-                            </li>
-                            <li className="nav-item">
-                                <Link className='nav-link nav-link-3' to="/about">About</Link>
+                                <Link className='nav-link nav-link-3' to="/aboutus">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className='nav-link nav-link-4' to="/contact">Contact</Link>
