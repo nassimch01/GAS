@@ -70,7 +70,7 @@ function PhotoDetail() {
                 </div>
                 <div className="row tm-mb-90">
                     <div className="col-xl-8 col-lg-7 col-md-6 col-sm-12">
-                        <img src="img/img-01-big.jpg" alt="Image" className="img-fluid" />
+                        <img src="img/img-01.jpg" alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-xl-4 col-lg-5 col-md-6 col-sm-12">
                         <div className="tm-bg-gray tm-video-details">
@@ -88,7 +88,7 @@ function PhotoDetail() {
                                         className="tm-text-primary">1920x1080</span>
                                 </div>
                                 <div className="mr-4 mb-2">
-                                    <span className="tm-text-gray-dark">Format: </span><span className="tm-text-primary">JPG</span>
+                                    <span className="tm-text-gray-dark">Format: </span><span className="tm-text-primary">jpg</span>
                                 </div>
                             </div>
                             <div className="mb-4">

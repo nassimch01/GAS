@@ -376,8 +376,149 @@ p,
 .tm-text-gray-dark {
     color: #666;
 }
+/* Container padding */
+.tm-container-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+/* Image cards */
 .tm-video-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.tm-video-item:hover {
+  transform: scale(1.02);
+}
+
+/* Image style */
+.tm-video-item img {
+  width: 100%;
+  height: 250px; /* Or auto if you want dynamic height */
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Caption overlay */
+.tm-video-item figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tm-video-item:hover figcaption {
+  opacity: 1;
+}
+
+/* Heading inside caption */
+.tm-video-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* View more link */
+.tm-video-item a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+/* Date and views */
+.tm-text-gray {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Pagination styling */
+.tm-paging-link {
+  margin: 0 5px;
+  padding: 6px 12px;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.tm-paging-link.active,
+.tm-paging-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 768px) {
+  .tm-video-item img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tm-video-item img {
+    height: 180px;
+  }
+
+  .tm-video-item h2 {
+    font-size: 1rem;
+  }
+}
+/* src/components/Home.css */
+
+.home-container {
+  height: 100vh;
+  background-image: url('/img/your-background.jpg'); /* Update path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional dark overlay */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #0056b3;
+}
+
+
+{/*.tm-video-item {
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -440,7 +581,7 @@ p,
 
 .tm-gallery div.d-block {
     animation: show .5s ease;
-}
+}*/}
 
 @keyframes show {
     0% {
