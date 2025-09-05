@@ -1,15 +1,19 @@
 import { Route, Router, Routes } from 'react-router-dom';
-import Home from './components/Home';
 import Contact from './components/Contact';
 import AboutUs from './components/AboutUs';
+import Home from './components/Home';
+import PhotoDetail from './components/PhotoDetail';
+
 
 function App() {
   return (
     <div className="App">
-      <Home />
+
       <Routes>
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/photodetail" element={<PhotoDetail />} />
       </Routes>
 
 

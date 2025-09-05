@@ -2,27 +2,37 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Header() {
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <i className="fas fa-film mr-2"></i>
-                        Catalog-Z
+                        GAS
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i className="fas fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+
                             <li className="nav-item">
-                                <a className="nav-link nav-link-1 active" aria-current="page" href="index.html">Photos</a>
+
+                                <Link className="nav-link nav-link-1 active" to="/">Accueil</Link>
+
+                            </li>
+
+                            <li className="nav-item">
+
+                                <Link className="nav-link nav-link-1 active" to="/photodetail">Photos</Link>
+
                             </li>
                             <li className="nav-item">
-                                <Link className='nav-link nav-link-3' to="/aboutus">About</Link>
+                                <Link className='nav-link nav-link-2' to="/aboutus">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className='nav-link nav-link-4' to="/contact">Contact</Link>
+                                <Link className='nav-link nav-link-3' to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
@@ -65,7 +75,7 @@ function Header() {
                 <div className="row tm-mb-90 tm-gallery">
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-03.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-03.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Clocks</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -78,7 +88,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-04.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-04.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Plants</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -91,7 +101,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-05.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-05.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Morning</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -104,7 +114,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-06.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-06.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Pinky</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -118,7 +128,7 @@ function Header() {
 
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-01.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-01.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Hangers</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -131,7 +141,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-02.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-02.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Perfumes</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -144,7 +154,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-07.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-07.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Bus</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -157,7 +167,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-08.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-08.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>New York</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -170,7 +180,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-09.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-09.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Abstract</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -183,7 +193,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-10.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-10.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Flowers</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -196,7 +206,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-11.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-11.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Rosy</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -209,7 +219,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-12.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-12.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Rocki</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -222,7 +232,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-13.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-13.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Purple</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -235,7 +245,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-14.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-14.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Sea</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -248,7 +258,7 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-15.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-15.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Turtle</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -261,7 +271,59 @@ function Header() {
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                         <figure className="effect-ming tm-video-item">
-                            <img src="/img/img-16.jpg" alt="Image" className="img-fluid" />
+                            <img src="/img/img-16.jpeg" alt="Image" className="img-fluid" />
+                            <figcaption className="d-flex align-items-center justify-content-center">
+                                <h2>Peace</h2>
+                                <a href="photo-detail.html">View more</a>
+                            </figcaption>
+                        </figure>
+                        <div className="d-flex justify-content-between tm-text-gray">
+                            <span className="tm-text-gray-light">3 Aug 2020</span>
+                            <span>21,204 views</span>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure className="effect-ming tm-video-item">
+                            <img src="/img/img-17.jpeg" alt="Image" className="img-fluid" />
+                            <figcaption className="d-flex align-items-center justify-content-center">
+                                <h2>Peace</h2>
+                                <a href="photo-detail.html">View more</a>
+                            </figcaption>
+                        </figure>
+                        <div className="d-flex justify-content-between tm-text-gray">
+                            <span className="tm-text-gray-light">3 Aug 2020</span>
+                            <span>21,204 views</span>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure className="effect-ming tm-video-item">
+                            <img src="/img/img-18.jpeg" alt="Image" className="img-fluid" />
+                            <figcaption className="d-flex align-items-center justify-content-center">
+                                <h2>Peace</h2>
+                                <a href="photo-detail.html">View more</a>
+                            </figcaption>
+                        </figure>
+                        <div className="d-flex justify-content-between tm-text-gray">
+                            <span className="tm-text-gray-light">3 Aug 2020</span>
+                            <span>21,204 views</span>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure className="effect-ming tm-video-item">
+                            <img src="/img/img-19.jpeg" alt="Image" className="img-fluid" />
+                            <figcaption className="d-flex align-items-center justify-content-center">
+                                <h2>Peace</h2>
+                                <a href="photo-detail.html">View more</a>
+                            </figcaption>
+                        </figure>
+                        <div className="d-flex justify-content-between tm-text-gray">
+                            <span className="tm-text-gray-light">3 Aug 2020</span>
+                            <span>21,204 views</span>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <figure className="effect-ming tm-video-item">
+                            <img src="/img/img-20.jpeg" alt="Image" className="img-fluid" />
                             <figcaption className="d-flex align-items-center justify-content-center">
                                 <h2>Peace</h2>
                                 <a href="photo-detail.html">View more</a>
@@ -273,14 +335,120 @@ function Header() {
                         </div>
                     </div>
                 </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-21.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-22.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-23.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-24.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-25.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-26.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-27.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure className="effect-ming tm-video-item">
+                        <img src="/img/img-28.jpeg" alt="Image" className="img-fluid" />
+                        <figcaption className="d-flex align-items-center justify-content-center">
+                            <h2>Peace</h2>
+                            <a href="photo-detail.html">View more</a>
+                        </figcaption>
+                    </figure>
+                    <div className="d-flex justify-content-between tm-text-gray">
+                        <span className="tm-text-gray-light">3 Aug 2020</span>
+                        <span>21,204 views</span>
+                    </div>
+                </div>
+                
                 <div className="row tm-mb-90">
                     <div className="col-12 d-flex justify-content-between align-items-center tm-paging-col">
                         <a href="javascript:void(0);" className="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
                         <div className="tm-paging d-flex">
                             <a href="javascript:void(0);" className="active tm-paging-link">1</a>
-                            <a href="javascript:void(0);" className="tm-paging-link">2</a>
-                            <a href="javascript:void(0);" className="tm-paging-link">3</a>
-                            <a href="javascript:void(0);" className="tm-paging-link">4</a>
+                            <Link className="tm-paging-link" to="/photos">2</Link>
+                            <Link className="tm-paging-link" to="/photos">3</Link>
+                            <Link className="tm-paging-link" to="/photos">4</Link>
                         </div>
                         <a href="javascript:void(0);" className="btn btn-primary tm-btn-next">Next Page</a>
                     </div>
@@ -292,45 +460,31 @@ function Header() {
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-12 px-5 mb-5">
                             <h3 className="tm-text-primary mb-4 tm-footer-title">About Catalog-Z</h3>
-                            <p>Catalog-Z is free <a rel="sponsored" href="https://v5.getbootstrap.com/">Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+                            <p>GAS is free <a rel="sponsored" href="https://v5.getbootstrap.com/">Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
                             <h3 className="tm-text-primary mb-4 tm-footer-title">Our Links</h3>
                             <ul className="tm-footer-links pl-0">
-                                <li><a href="#">Advertise</a></li>
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Our Company</a></li>
-                                <li><a href="#">Contact</a></li>
+
+                                <li> <Link to="/contact">Contact</Link></li>
+                                <li> <Link to="/aboutus">A propos de nous</Link></li>
+
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                            <h3 className="tm-text-primary mb-4 tm-footer-title">Our Page</h3>
                             <ul className="tm-social-links d-flex justify-content-end pl-0 mb-5">
-                                <li className="mb-2"><a href="https://facebook.com"><i className="fab fa-facebook"></i></a></li>
-                                <li className="mb-2"><a href="https://twitter.com"><i className="fab fa-twitter"></i></a></li>
-                                <li className="mb-2"><a href="https://instagram.com"><i className="fab fa-instagram"></i></a></li>
-                                <li className="mb-2"><a href="https://pinterest.com"><i className="fab fa-pinterest"></i></a></li>
+
+                                <li className="mb-2"><a href="https://www.facebook.com/societeddar"><i className="fab fa-facebook"></i></a></li>
+
                             </ul>
-                            <a href="#" className="tm-text-gray text-right d-block mb-2">Terms of Use</a>
-                            <a href="#" className="tm-text-gray text-right d-block">Privacy Policy</a>
                         </div>
+
                     </div>
-                    <div className="row">
-                        <div className="col-lg-8 col-md-7 col-12 px-5 mb-3">
-                            Copyright 2020 Catalog-Z Company. All rights reserved.
-                        </div>
-                        <div className="col-lg-4 col-md-5 col-12 px-5 text-right">
-                            Designed by <a href="https://templatemo.com" className="tm-text-gray" rel="sponsored" target="_parent">TemplateMo</a>
-                        </div>
-                    </div>
+
                 </div>
             </footer>
 
-            {/* <script src="js/plugins.js"></script>
-    <script>
-        $(window).on("load", function() {
-            $('body').addClass('loaded');
-        });
-    </script>*/}
 
         </div>
     )

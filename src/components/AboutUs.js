@@ -1,14 +1,60 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function AboutUs() {
+
+
     return (
         <div>
+
+
+
+            <nav className="navbar navbar-expand-lg">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="index.html">
+                        <i className="fas fa-film mr-2"> </i>
+                        GAS
+
+                    </a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i className="fas fa-bars"></i>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+
+                                <Link className="nav-link nav-link-1 active" to="/">Accueil</Link>
+
+                            </li>
+
+                            <li className="nav-item">
+                                <Link className="nav-link nav-link-1 active" to="/photodetail">Photos</Link>
+                            </li>
+
+
+                            <li className="nav-item">
+                                <Link className='nav-link nav-link-2' to="/aboutus">About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className='nav-link nav-link-3' to="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div className="tm-hero d-flex justify-content-center align-items-center" style={{
+                backgroundImage: "url('/img/hero.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+            }}></div>
+
             <div className="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg"></div>
 
             <div className="container-fluid tm-mt-60">
                 <div className="row mb-4">
                     <h2 className="col-12 tm-text-primary">
-                        About Catalog-Z Website Template
+                        About GAS
                     </h2>
                 </div>
                 <div className="row tm-mb-74 tm-row-1640">
@@ -18,9 +64,9 @@ function AboutUs() {
                     <div className="col-lg-7 col-md-6 col-12">
                         <div className="tm-about-img-text">
                             <p className="mb-4">
-                                You may support TemplateMo website by making <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a small contribution</a> via PayPal. This will be helpful for us. We hope you like this Catalog-Z photo / video template for your website. We are making new templates regularly for you. Please come back and visit our <a rel="sponsored" href="https://templatemo.com" target="_parent">TemplateMo website</a> again. </p>
+                                You may support TemplateMo website by making <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a small contribution</a> via PayPal. This will be helpful for us. We hope you like this GAS-Z photo / video template for your website. We are making new templates regularly for you. Please come back and visit our <a rel="sponsored" href="https://templatemo.com" target="_parent">TemplateMo website</a> again. </p>
                             <p>
-                                Credits go to Pexels and Unsplash for photos and video used in this template. Catalog-Z is free <a rel="sponsored" href="https://v5.getbootstrap.com/">Bootstrap 5</a> Alpha 2 HTML Template designed for video and photo websites.</p>
+                                Credits go to Pexels and Unsplash for photos and video used in this template. GAS is free <a rel="sponsored" href="https://v5.getbootstrap.com/">Bootstrap 5</a> Alpha 2 HTML Template designed for video and photo websites.</p>
                             <p>You are <b>allowed</b> to use this template for your commercial or non-commercial websites. You can integrate it with any kind of CMS website. You are <b>NOT allowed</b> to redistribute the downloadable template ZIP file on any template collection website. Please <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact us</a> for more information. Thank you.</p>
                         </div>
                     </div>
@@ -89,10 +135,47 @@ function AboutUs() {
                 </div>
             </div>
 
+            <footer className="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+                <div className="container-fluid tm-container-small">
+                    <div className="row">
+                        <div className="col-lg-6 col-md-12 col-12 px-5 mb-5">
+                            <h3 className="tm-text-primary mb-4 tm-footer-title">About Catalog-Z</h3>
+                            <p>GAS is free <a rel="sponsored" href="https://v5.getbootstrap.com/">Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                            <h3 className="tm-text-primary mb-4 tm-footer-title">Our Links</h3>
+                            <ul className="tm-footer-links pl-0">
+
+                                <li> <Link to="/contact">Contact</Link></li>
+                                <li> <Link to="/aboutus">A propos de nous</Link></li>
+
+                            </ul>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                            <ul className="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                                <li className="mb-2"><a href="https://www.facebook.com/societeddar"><i className="fab fa-facebook"></i></a></li>
+
+
+                            </ul>
+                            <a href="#" className="tm-text-gray text-right d-block mb-2">Terms of Use</a>
+                            <a href="#" className="tm-text-gray text-right d-block">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                            Copyright 2020 gas Company. All rights reserved.
+                        </div>
+                        <div className="col-lg-4 col-md-5 col-12 px-5 text-right">
+                            Designed by <a href="https://templatemo.com" className="tm-text-gray" rel="sponsored" target="_parent">TemplateMo</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
 
 
         </div>
     )
 }
 
-export default AboutUs;
+export default AboutUs
