@@ -28,7 +28,7 @@ function PhotoDetail() {
 
                             <li className="nav-item">
 
-                                <Link className="nav-link nav-link-1 active" to="/photodetail">Photos</Link>
+                                <Link className="nav-link nav-link-1 active" to="/photos">Photos</Link>
 
                             </li>
                             <li className="nav-item">
