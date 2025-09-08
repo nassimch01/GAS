@@ -32,7 +32,7 @@ function AboutUs() {
                 
                                             <li className="nav-item">
                 
-                                                <Link className="nav-link nav-link-1 active" to="/">Photos</Link>
+                                                <Link className="nav-link nav-link-1 active" to="/photos">Photos</Link>
                 
                                             </li>
                 
@@ -47,7 +47,7 @@ function AboutUs() {
                                 </div>
             </nav>
            
-            <div className="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg"></div>
+            
 
             <div className="container-fluid tm-mt-60">
                 <div className="row mb-4">

@@ -30,7 +30,7 @@ function Header() {
 
                             <li className="nav-item">
 
-                                <Link className="nav-link nav-link-1 active" to="/">Photos</Link>
+                                <Link className="nav-link nav-link-1 active" to="/photos">Photos</Link>
 
                             </li>
 
@@ -45,18 +45,15 @@ function Header() {
                 </div>
             </nav>
 
-            <div className="tm-hero d-flex justify-content-center align-items-center" >
-
-
-               
-            </div>
-
-
-
-
-
 
         </div>
+
+
+
+
+
+
+
     )
 }
 
